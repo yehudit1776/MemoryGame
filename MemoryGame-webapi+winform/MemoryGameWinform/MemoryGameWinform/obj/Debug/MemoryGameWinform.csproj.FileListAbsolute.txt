@@ -1,0 +1,15 @@
+C:\Users\seldat\Desktop\MemoryGameWinform\MemoryGameWinform\bin\Debug\MemoryGameWinform.exe.config
+C:\Users\seldat\Desktop\MemoryGameWinform\MemoryGameWinform\bin\Debug\MemoryGameWinform.exe
+C:\Users\seldat\Desktop\MemoryGameWinform\MemoryGameWinform\bin\Debug\MemoryGameWinform.pdb
+C:\Users\seldat\Desktop\MemoryGameWinform\MemoryGameWinform\obj\Debug\MemoryGameWinform.csprojAssemblyReference.cache
+C:\Users\seldat\Desktop\MemoryGameWinform\MemoryGameWinform\obj\Debug\MemoryGameWinform.Form1.resources
+C:\Users\seldat\Desktop\MemoryGameWinform\MemoryGameWinform\obj\Debug\MemoryGameWinform.Properties.Resources.resources
+C:\Users\seldat\Desktop\MemoryGameWinform\MemoryGameWinform\obj\Debug\MemoryGameWinform.csproj.GenerateResource.cache
+C:\Users\seldat\Desktop\MemoryGameWinform\MemoryGameWinform\obj\Debug\MemoryGameWinform.csproj.CoreCompileInputs.cache
+C:\Users\seldat\Desktop\MemoryGameWinform\MemoryGameWinform\obj\Debug\MemoryGameWinform.exe
+C:\Users\seldat\Desktop\MemoryGameWinform\MemoryGameWinform\obj\Debug\MemoryGameWinform.pdb
+C:\Users\seldat\Desktop\MemoryGameWinform\MemoryGameWinform\bin\Debug\Newtonsoft.Json.dll
+C:\Users\seldat\Desktop\MemoryGameWinform\MemoryGameWinform\obj\Debug\MemoryGameWinform.csproj.CopyComplete
+C:\Users\seldat\Desktop\MemoryGameWinform\MemoryGameWinform\obj\Debug\MemoryGameWinform.Form2.resources
+C:\Users\seldat\Desktop\MemoryGameWinform\MemoryGameWinform\obj\Debug\MemoryGameWinform.Form3.resources
+C:\Users\seldat\Desktop\MemoryGameWinform\MemoryGameWinform\obj\Debug\MemoryGameWinform.Form4.resources
