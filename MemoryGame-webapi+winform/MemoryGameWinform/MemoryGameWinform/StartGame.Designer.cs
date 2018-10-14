@@ -1,6 +1,6 @@
 ﻿namespace MemoryGameWinform
 {
-    partial class Form3
+    partial class StartGame
     {
         /// <summary>
         /// Required designer variable.

@@ -1,6 +1,6 @@
 ﻿namespace MemoryGameWinform
 {
-    partial class Form2
+    partial class PartnerForm
     {
         /// <summary>
         /// Required designer variable.

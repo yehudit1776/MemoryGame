@@ -1,20 +1,17 @@
 ﻿using MemoryGameWinform.Models;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
 using System.IO;
 using System.Linq;
 using System.Net;
-using System.Text;
-using System.Threading.Tasks;
+
 using System.Web.Script.Serialization;
 using System.Windows.Forms;
 
 namespace MemoryGameWinform
 {
-    public partial class Form4 : Form
+    public partial class Game : Form
     {
         private User user1;
         private User user2;
@@ -24,7 +21,7 @@ namespace MemoryGameWinform
         HelpCardsAndCurrentTurn game;
 
         private string currentUser;
-        public Form4(object u1, object u2)
+        public Game(object u1, object u2)
         {
             user1 = u1 as User;
             user2 = u2 as User;
@@ -91,8 +88,6 @@ namespace MemoryGameWinform
 
                                 }
 
-                                //currentUser = helpCardsAndCurrentTurn.CurrentTurn;
-                                //label1.Text = "Current player name: " + currentUser;
 
                             }
 
@@ -112,7 +107,7 @@ namespace MemoryGameWinform
                 }
                 catch (Exception ex)
                 {
-                    throw;
+                    MessageBox.Show(ex.ToString());;
 
                 }
 
@@ -298,25 +293,8 @@ namespace MemoryGameWinform
             }
         }
 
-        private void panel2_Paint(object sender, PaintEventArgs e)
-        {
+    
 
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-          
-
-
-
-
-
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
+        
     }
 }

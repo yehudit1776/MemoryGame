@@ -1,6 +1,6 @@
 ﻿namespace MemoryGameWinform
 {
-    partial class Form1
+    partial class RegistrationForm
     {
         /// <summary>
         /// Required designer variable.
@@ -46,7 +46,6 @@
             this.label1.Size = new System.Drawing.Size(35, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "Name";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -56,7 +55,6 @@
             this.label2.Size = new System.Drawing.Size(26, 13);
             this.label2.TabIndex = 1;
             this.label2.Text = "Age";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // textBox_name
             // 
@@ -130,7 +128,6 @@
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_age)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

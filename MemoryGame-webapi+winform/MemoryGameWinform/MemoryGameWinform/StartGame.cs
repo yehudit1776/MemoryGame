@@ -1,19 +1,13 @@
 ﻿using MemoryGameWinform.Models;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 using System.Windows.Forms;
 
 namespace MemoryGameWinform
 {
-    public partial class Form3 : Form
+    public partial class StartGame : Form
     {
-        public Form3(object user1,object user2)
+        public StartGame(object user1,object user2)
         {
             this.user1 = user1 as User;
             this.user2 = user2 as User;
@@ -30,7 +24,7 @@ namespace MemoryGameWinform
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form4 form4 = new Form4(user1, user2);
+            Game form4 = new Game(user1, user2);
             form4.Show();
         }
     }

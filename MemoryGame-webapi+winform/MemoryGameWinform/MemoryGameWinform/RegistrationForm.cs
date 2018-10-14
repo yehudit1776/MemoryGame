@@ -18,21 +18,11 @@ using System.Web.Script.Serialization;
 
 namespace MemoryGameWinform
 {
-    public partial class Form1 : Form
+    public partial class RegistrationForm : Form
     {
-        public Form1()
+        public RegistrationForm()
         {
             InitializeComponent();
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -69,7 +59,7 @@ namespace MemoryGameWinform
                             var result = streamReader.ReadToEnd();
                             if (result == "true")
                             { 
-                                Form2 form2 = new Form2(user);
+                                PartnerForm form2 = new PartnerForm(user);
                                 form2.Show();
 
 
@@ -90,11 +80,6 @@ namespace MemoryGameWinform
 
 
 
-
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
 
         }
     }

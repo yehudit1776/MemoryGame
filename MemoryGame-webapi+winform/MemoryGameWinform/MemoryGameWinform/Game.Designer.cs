@@ -1,6 +1,6 @@
 ﻿namespace MemoryGameWinform
 {
-    partial class Form4
+    partial class Game
     {
         /// <summary>
         /// Required designer variable.
@@ -77,7 +77,6 @@
             this.label4.Size = new System.Drawing.Size(35, 13);
             this.label4.TabIndex = 2;
             this.label4.Text = "label4";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label3
             // 

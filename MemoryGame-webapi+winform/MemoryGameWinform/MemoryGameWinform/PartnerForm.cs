@@ -1,24 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Net;
 using System.IO;
-using System.Web;
 using MemoryGameWinform.Models;
 using System.Web.Script.Serialization;
 
 namespace MemoryGameWinform
 {
-    public partial class Form2 : Form
+    public partial class PartnerForm : Form
     {
        
-        public Form2(object user)
+        public PartnerForm(object user)
         {
             this.user = user as User;
             InitializeComponent();
@@ -55,9 +49,7 @@ namespace MemoryGameWinform
                         if (result == "true")
                         {
                             MessageBox.Show("ok");
-                            //Form3 form3 = new Form3(user, choosenUser);
-                            //form3.Show();
-
+                   
 
                         }
                         else
@@ -125,7 +117,7 @@ namespace MemoryGameWinform
                 JavaScriptSerializer javaScriptSerializer2 = new JavaScriptSerializer();
                 User partner = javaScriptSerializer2.Deserialize<User>(str1232);
 
-                Form3 f3 = new Form3(user,partner);
+                StartGame f3 = new StartGame(user,partner);
                 MyTimer.Stop();
                 f3.Show();
             }
