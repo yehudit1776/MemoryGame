@@ -26,7 +26,7 @@ namespace memoryGameAPI.Controllers
         // POST api/user
         public IHttpActionResult Post([FromBody]User user)
         {
-            if (!ModelState.IsValid&&Global.UserList.FirstOrDefault(user1=>user1.Name.Equals(user.Name))==null)
+            if (ModelState.IsValid&&Global.UserList.FirstOrDefault(user1=>user1.Name.Equals(user.Name))==null)
             {
 
                 lock (Global.UserList)
